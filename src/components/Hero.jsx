@@ -4,6 +4,7 @@ import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
+  const heroText = "Currently, a DevOps Engineer".split(" ");
   return (
     <section className="relative w-full h-screen mx-auto">
       <div
@@ -19,9 +20,24 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915eff]">Yew Kong</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            A DevOps Engineer with experiences
-            <br className="sm:block hidden" /> building Java Backend and React
-            Frontend applications.
+            {heroText.map((word, index) => (
+              <motion.span
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{
+                  duration: 0.5,
+                  delay: index / 10,
+                }}
+                key={index}
+              >
+                {word}{" "}
+              </motion.span>
+            ))}
+            <br className="sm:block" />{" "}
+            <span className="md:block hidden">
+              with experiences building Java Backend and React Frontend
+              applications.
+            </span>
           </p>
         </div>
       </div>
