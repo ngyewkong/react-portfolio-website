@@ -15,6 +15,16 @@ import {
   git,
   figma,
   docker,
+  ansible,
+  aws,
+  java,
+  keras,
+  kubernetes,
+  mysql,
+  python,
+  spring,
+  tensorflow,
+  terraform,
   meta,
   starbucks,
   tesla,
@@ -63,29 +73,17 @@ const services = [
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+  // {
+  //   name: "HTML 5",
+  //   icon: html,
+  // },
+  // {
+  //   name: "CSS 3",
+  //   icon: css,
+  // },
   {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "Tailwind CSS",
@@ -95,25 +93,78 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
+  // {
+  //   name: "JavaScript",
+  //   icon: javascript,
+  // },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
+  // {
+  //   name: "git",
+  //   icon: git,
+  // },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
+  {
+    name: "python",
+    icon: python,
+  },
+  {
+    name: "docker",
+    icon: docker,
+  },
+  {
+    name: "kubernetes",
+    icon: kubernetes,
+  },
+  {
+    name: "aws",
+    icon: aws,
+  },
+  {
+    name: "ansible",
+    icon: ansible,
+  },
+  {
+    name: "terraform",
+    icon: terraform,
+  },
+  {
+    name: "java",
+    icon: java,
+  },
+  {
+    name: "spring",
+    icon: spring,
+  },
+  {
+    name: "tensorflow",
+    icon: tensorflow,
+  },
+  {
+    name: "keras",
+    icon: keras,
+  },
   {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
+    name: "MySQL",
+    icon: mysql,
   },
 ];
 
