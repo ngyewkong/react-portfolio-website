@@ -21,6 +21,18 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+import ansible from "./tech/ansible.png";
+import aws from "./tech/aws.png";
+
+import java from "./tech/java.png";
+import keras from "./tech/keras.png";
+import kubernetes from "./tech/kubernetes.png";
+import mysql from "./tech/mysql.png";
+import python from "./tech/python.png";
+import spring from "./tech/spring.png";
+import tensorflow from "./tech/tensorflow.png";
+import terraform from "./tech/terraform.png";
+
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -55,6 +67,16 @@ export {
   tailwind,
   typescript,
   threejs,
+  ansible,
+  aws,
+  java,
+  keras,
+  kubernetes,
+  mysql,
+  python,
+  spring,
+  tensorflow,
+  terraform,
   meta,
   shopify,
   starbucks,
