@@ -35,6 +35,12 @@ import {
   carrent,
   jobit,
   tripguide,
+  chatapp,
+  ragcli,
+  stablediffusionwebapp,
+  wordle,
+  clone2048,
+  dkeep,
   threejs,
 } from "../assets";
 
@@ -97,10 +103,10 @@ const technologies = [
   //   name: "JavaScript",
   //   icon: javascript,
   // },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+  // {
+  //   name: "TypeScript",
+  //   icon: typescript,
+  // },
 
   // {
   //   name: "Redux Toolkit",
@@ -276,67 +282,146 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Realtime Chat App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based Chat platform that allows users to login, search add other registered users. It also has a chatbot function that integrates with OpenAI.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
+        name: "NextJs",
+        color: "orange-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "Redis",
+        color: "green-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: chatapp,
+    source_code_link: "https://github.com/ngyewkong/realtime-chatapp-react",
+    project_live_url: "https://realtime-chatapp-react.vercel.app/",
   },
   {
-    name: "Job IT",
+    name: "RAG Chatbot in CLI",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Python application that enables users to ask GPT questions on local set of documents and getting it to output the sources when it gives the answer.",
     tags: [
       {
-        name: "react",
+        name: "ChatGPT",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
+        name: "LangChain",
+        color: "orange-text-gradient",
       },
       {
-        name: "scss",
+        name: "Chroma",
         color: "pink-text-gradient",
       },
+      {
+        name: "Python",
+        color: "green-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: ragcli,
+    source_code_link: "https://github.com/ngyewkong/rag-langchain",
   },
   {
-    name: "Trip Guide",
+    name: "Stable Diffusion Web App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A React Web App that generates images based on user input prompt using Stable Diffusion model.",
     tags: [
       {
-        name: "nextjs",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
-        color: "green-text-gradient",
+        name: "Docker",
+        color: "orange-text-gradient",
       },
       {
-        name: "css",
+        name: "ChakraUI",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "green-text-gradient",
+      },
+    ],
+    image: stablediffusionwebapp,
+    source_code_link: "https://github.com/ngyewkong/React_Stable_Diffusion",
+  },
+  {
+    name: "Web3.0 Google Keep",
+    description:
+      "A Google Keep Note Taking App built on React & Motoko. Web3.0 Decentralised Blockchain using Internet Computer Protocol.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Motoko",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Web3.0 Blockchain",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: dkeep,
+    source_code_link:
+      "https://github.com/ngyewkong/icp_blockchain_projects_dkeep",
+  },
+  {
+    name: "Wordle Web",
+    description:
+      "A Wordle Clone based on the popular game by New York Times. Built using basic web technologies (HTML,CSS, JS).",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: wordle,
+    source_code_link: "https://github.com/ngyewkong/wordle-clone",
+    project_live_url: "https://ngyewkong.github.io/wordle-clone/",
+  },
+  {
+    name: "2048 Web",
+    description:
+      "A 2048 Clone built with mobile and web functionality. Built using basic web technologies (HTML,CSS, JS).",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: clone2048,
+    source_code_link: "https://github.com/ngyewkong/2048-clone",
+    project_live_url: "https://ngyewkong.github.io/2048-clone/",
   },
 ];
 

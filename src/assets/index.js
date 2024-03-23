@@ -44,6 +44,12 @@ import ntu from "./company/ntu.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import chatapp from "./chatapp.gif";
+import ragcli from "./ragcli.gif";
+import stablediffusionwebapp from "./stablediffusionwebapp.gif";
+import wordle from "./wordle.gif";
+import clone2048 from "./2048.gif";
+import dkeep from "./dkeep.gif";
 
 export {
   logocolor,
@@ -87,4 +93,10 @@ export {
   carrent,
   jobit,
   tripguide,
+  chatapp,
+  ragcli,
+  stablediffusionwebapp,
+  wordle,
+  clone2048,
+  dkeep,
 };
