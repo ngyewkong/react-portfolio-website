@@ -1,10 +1,17 @@
 import { motion } from "framer-motion";
+import { useState } from "react";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   const heroText = "Currently, a DevOps Engineer".split(" ");
+  const [showPopup, setShowPopup] = useState(false);
+
+  const handleCanvasClick = () => {
+    setShowPopup(true);
+  };
+
   return (
     <section className="relative w-full h-screen mx-auto">
       <div
@@ -41,7 +48,39 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <ComputersCanvas />
+      <ComputersCanvas onClick={handleCanvasClick} />
+
+      {/* setting onClick to close modal popup when click happens on the outer div (not on the modal div) */}
+      {showPopup && (
+        <div
+          onClick={() => setShowPopup(false)}
+          className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-50 transition-opacity duration-300"
+        >
+          {/* e.stopPropagation is to prevent modal to close with clicks inside the modal */}
+          <div
+            onClick={(e) => e.stopPropagation()}
+            className="bg-white bg-opacity-80 rounded-lg shadow-md p-6 text-center space-y-4 transition-transform duration-300 transform scale-95"
+          >
+            <h2 className="text-2xl font-semibold text-gray-700 select-none">
+              Download CV
+            </h2>
+            <div className="flex justify-center space-x-4">
+              <button
+                onClick={() => window.open("https://bit.ly/ngyewkong-cv")}
+                className="px-4 py-2 bg-green-600 text-white rounded-lg shadow-md hover:bg-green-800 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 transition-colors duration-300 select-none"
+              >
+                Download
+              </button>
+              <button
+                onClick={() => setShowPopup(false)}
+                className="px-4 py-2 bg-red-600 text-white rounded-lg shadow-md hover:bg-red-800 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-opacity-50 transition-colors duration-300 select-none"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
