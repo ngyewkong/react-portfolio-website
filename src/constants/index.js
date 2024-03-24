@@ -112,10 +112,10 @@ const technologies = [
   //   name: "Redux Toolkit",
   //   icon: redux,
   // },
-  // {
-  //   name: "Three JS",
-  //   icon: threejs,
-  // },
+  {
+    name: "Three JS",
+    icon: threejs,
+  },
   // {
   //   name: "git",
   //   icon: git,
@@ -164,14 +164,14 @@ const technologies = [
     name: "keras",
     icon: keras,
   },
-  // {
-  //   name: "MongoDB",
-  //   icon: mongodb,
-  // },
-  // {
-  //   name: "MySQL",
-  //   icon: mysql,
-  // },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "MySQL",
+    icon: mysql,
+  },
 ];
 
 const experiences = [
@@ -200,6 +200,7 @@ const experiences = [
       "Took modules covering Virtualization, AWS services, Docker, DevOps Engineering & Machine Learning",
       "Implemented a fullstack application on AWS following best security practices & cost optimisation",
       "Implemented end-to-end Recommender System for E-Commerce using AWS SageMaker",
+      "Achieved a CGPA of 3.83/4.00",
     ],
   },
   {
