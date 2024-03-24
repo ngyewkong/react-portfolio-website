@@ -28,7 +28,7 @@ const Computers = (isMobile) => {
   );
 };
 
-const ComputersCanvas = () => {
+const ComputersCanvas = ({ onClick }) => {
   const [isMobile, setIsMobile] = useState(false);
 
   // useEffect is only changing the isMobile var
@@ -63,6 +63,7 @@ const ComputersCanvas = () => {
       shadows
       camera={{ position: [20, 3, 5], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
+      onPointerDown={onClick}
     >
       <Suspense fallback={<Loader />}>
         <OrbitControls
