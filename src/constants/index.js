@@ -112,10 +112,10 @@ const technologies = [
   //   name: "Redux Toolkit",
   //   icon: redux,
   // },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   // {
   //   name: "git",
   //   icon: git,
@@ -164,14 +164,14 @@ const technologies = [
     name: "keras",
     icon: keras,
   },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "MySQL",
-    icon: mysql,
-  },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
+  // {
+  //   name: "MySQL",
+  //   icon: mysql,
+  // },
 ];
 
 const experiences = [
@@ -185,7 +185,8 @@ const experiences = [
       "Develop and maintain CI/CD Jenkins pipelines using Groovy & Shell scripting",
       "Provide L2 Support for app teams utilising shared pipelines",
       "Collaborate with cross-functional teams including SRE, Cybersecurity, and other app developers to improve developer experience",
-      "Involve in the development of new Kubernetes-based platform (pipeline and infrastructure)",
+      "Involve in the development of new Kubernetes-based platform (pipeline, platform and infrastructure)",
+      "Particpate in infrastructure capacity preparation work for Disaster Recovery (DR) drill",
     ],
   },
   {
