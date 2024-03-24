@@ -58,5 +58,4 @@ const About = () => {
 };
 
 // using the higher order component
-const WrappedAbout = SectionWrapper(About, "about");
-export default WrappedAbout;
+export default SectionWrapper(About, "about");
