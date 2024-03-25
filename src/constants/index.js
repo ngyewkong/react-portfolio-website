@@ -112,10 +112,10 @@ const technologies = [
   //   name: "Redux Toolkit",
   //   icon: redux,
   // },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   // {
   //   name: "git",
   //   icon: git,
@@ -164,14 +164,14 @@ const technologies = [
     name: "keras",
     icon: keras,
   },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "MySQL",
-    icon: mysql,
-  },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
+  // {
+  //   name: "MySQL",
+  //   icon: mysql,
+  // },
 ];
 
 const experiences = [
@@ -179,7 +179,7 @@ const experiences = [
     title: "DevOps Engineer",
     company_name: "DBS Bank",
     icon: dbs,
-    iconBg: "#383E56",
+    iconBg: "#d3d3d3",
     date: "July 2023 - Present",
     points: [
       "Develop and maintain CI/CD Jenkins pipelines using Groovy & Shell scripting",
@@ -194,7 +194,7 @@ const experiences = [
       "Specialist Diploma in Cloud Computing & Intelligent Services Management",
     company_name: "Nanyang Polytechnic",
     icon: nyp,
-    iconBg: "#383E56",
+    iconBg: "#d3d3d3",
     date: "April 2023 - March 2024",
     points: [
       "Underwent a year long diploma that covers cloud computing technologies",
@@ -208,7 +208,7 @@ const experiences = [
     title: "Fullstack Developer",
     company_name: "DBS Bank",
     icon: dbs,
-    iconBg: "#383E56",
+    iconBg: "#d3d3d3",
     date: "July 2022 - July 2023",
     points: [
       "Developed User Interfaces (UIs) for inhouse CMS using React, Typescript and RTK Query",
@@ -221,7 +221,7 @@ const experiences = [
     title: "FlexiMasters in Business and Financial Analytics",
     company_name: "Nanyang Technological University",
     icon: ntu,
-    iconBg: "#383E56",
+    iconBg: "#d3d3d3",
     date: "January 2022 - May 2022",
     points: [
       "Took post graduate courses in Database Management, Data Visualisation, AI & Blockchain technologies",
@@ -232,7 +232,7 @@ const experiences = [
     title: "Business Intelligence (BI) Developer",
     company_name: "DBS Bank",
     icon: dbs,
-    iconBg: "#383E56",
+    iconBg: "#d3d3d3",
     date: "July 2021 - July 2022",
     points: [
       "Developed Tableau Dashboards with Presto Connector and Tableau Server deployment",
@@ -244,7 +244,7 @@ const experiences = [
     title: "B.Eng in Mechanical Engineering",
     company_name: "Nanyang Technological University",
     icon: ntu,
-    iconBg: "#383E56",
+    iconBg: "#d3d3d3",
     date: "August 2017 - June 2021",
     points: [
       "Collaborated with Healthcare professionals from National Cancer Centre Singapore on Breast Cancer Segmentation for Final Year Project",

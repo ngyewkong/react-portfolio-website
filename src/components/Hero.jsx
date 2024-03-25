@@ -42,8 +42,7 @@ const Hero = () => {
             ))}
             <br className="sm:block" />{" "}
             <span className="md:block hidden">
-              with experiences building Java Backend and React Frontend
-              applications.
+              with past experiences in Web Dev & AI.
             </span>
           </p>
         </div>
