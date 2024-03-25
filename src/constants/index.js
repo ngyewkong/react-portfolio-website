@@ -333,6 +333,7 @@ const projects = [
     ],
     image: ragcli,
     source_code_link: "https://github.com/ngyewkong/rag-langchain",
+    project_live_url: "",
   },
   {
     name: "Stable Diffusion Web App",
@@ -358,6 +359,7 @@ const projects = [
     ],
     image: stablediffusionwebapp,
     source_code_link: "https://github.com/ngyewkong/React_Stable_Diffusion",
+    project_live_url: "",
   },
   {
     name: "Web3.0 Google Keep",
@@ -373,13 +375,14 @@ const projects = [
         color: "orange-text-gradient",
       },
       {
-        name: "Web3.0 Blockchain",
+        name: "ICPBlockchain",
         color: "pink-text-gradient",
       },
     ],
     image: dkeep,
     source_code_link:
       "https://github.com/ngyewkong/icp_blockchain_projects_dkeep",
+    project_live_url: "",
   },
   {
     name: "Wordle Web",
