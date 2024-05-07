@@ -182,7 +182,7 @@ const experiences = [
     iconBg: "#d3d3d3",
     date: "July 2023 - Present",
     points: [
-      "Develop & maintain CI/CD Jenkins pipelines using Groovy & Shell scripting",
+      "Develop and maintain shared CI/CD Jenkins pipelines & Docker images using Docker, Groovy & Shell scripting",
       "Provide L2 Support for app teams utilising shared pipelines",
       "Collaborate with cross-functional teams including SRE, Cybersecurity & other app teams to drive developer experience",
       "Involve in the development of new Kubernetes-based platform for bank-wide use (pipeline, platform & infrastructure)",
@@ -197,11 +197,11 @@ const experiences = [
     iconBg: "#d3d3d3",
     date: "April 2023 - March 2024",
     points: [
+      "Achieved a CGPA of 3.83/4.00 (Outstanding Academic Performance Award Recipient)",
       "Underwent a year-long advance diploma that covers cloud computing technologies",
       "Took modules covering Virtualization, AWS services, Docker, DevOps Engineering & Machine Learning",
       "Implemented a fullstack application on AWS following best security practices & cost optimisation",
-      "Implemented end-to-end Recommender System for E-Commerce using AWS SageMaker",
-      "Achieved a CGPA of 3.83/4.00",
+      "Implemented an End-To-End Recommender System for E-Commerce using AWS SageMaker",
     ],
   },
   {
@@ -225,8 +225,10 @@ const experiences = [
     iconBg: "#d3d3d3",
     date: "January 2022 - May 2022",
     points: [
-      "Took post graduate courses in Database Management, Data Visualisation, AI & Blockchain technologies",
       "Achieved a CGPA of 4.6/5.0",
+      "Took post graduate courses in Database Management, Data Visualisation, AI & Blockchain technologies",
+      "Implemented an End-To-End ML Project on Credit Card Default Risk which covers data cleaning, EDA, model training & evaluation on UCI Credit Card dataset",
+      "Integrated ML Inference Endpoints built using Flask with Telegram Bot API to deliver a Financial Advisor ChatBot",
     ],
   },
   {
