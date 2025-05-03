@@ -45,9 +45,10 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-full leading-[30px]"
       >
         I am a DevOps Engineer with experience maintaining and creating CI/CD
-        pipelines for app teams. I also had web development experience building
-        both Frontend UI (using React Framework) and Backend API (using Java
-        Spring Boot Framework).
+        pipelines for app teams. Concurrently, I am also in-charge of
+        implementing GenAI solutions (RAG & Agents). I also had web development
+        experience building both Frontend UI (using React Framework) and Backend
+        API (using Java Spring Boot Framework).
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
