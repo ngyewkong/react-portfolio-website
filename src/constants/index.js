@@ -65,16 +65,16 @@ const services = [
     icon: web,
   },
   {
+    title: "ML Engineer",
+    icon: creator,
+  },
+  {
     title: "React Developer",
     icon: mobile,
   },
   {
     title: "Backend Developer",
     icon: backend,
-  },
-  {
-    title: "ML Engineer",
-    icon: creator,
   },
 ];
 
@@ -176,12 +176,14 @@ const technologies = [
 
 const experiences = [
   {
-    title: "DevOps Engineer",
+    title: "DevOps Engineer / GenAI Engineer",
     company_name: "DBS Bank",
     icon: dbs,
     iconBg: "#d3d3d3",
     date: "July 2023 - Present",
     points: [
+      "Led the developement efforts for 4 GenAI initiatives in CBGT, from ChatBot, RAG Design Pattern Detection, Automated Unit Test Generation & Architecture Governance Review Agent",
+      "Conducted training sessions to increase GenAI plugin usage among CBGT application developers",
       "Develop and maintain shared CI/CD Jenkins pipelines & Docker images using Docker, Groovy & Shell scripting",
       "Provide L2 Support for app teams utilising shared pipelines",
       "Collaborate with cross-functional teams including SRE, Cybersecurity & other app teams to drive developer experience",
