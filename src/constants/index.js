@@ -54,6 +54,14 @@ export const navLinks = [
     title: "Experience",
   },
   {
+    id: "tech",
+    title: "Tech",
+  },
+  {
+    id: "projects",
+    title: "Projects",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -182,7 +190,8 @@ const experiences = [
     iconBg: "#d3d3d3",
     date: "July 2023 - Present",
     points: [
-      "Led the developement efforts for 4 GenAI initiatives in CBGT, from ChatBot, RAG Design Pattern Detection, Automated Unit Test Generation & Architecture Governance Review Agent",
+      "Lead the development efforts for 4 GenAI initiatives in CBGT (Chat Bot, RAG Design Pattern Detection, Automated Unit Test Generation & Architecture Governance Review Agent)",
+      "Conduct training sessions to increase GenAI usage among CBGT application developers",
       "Conducted training sessions to increase GenAI plugin usage among CBGT application developers",
       "Develop and maintain shared CI/CD Jenkins pipelines & Docker images using Docker, Groovy & Shell scripting",
       "Provide L2 Support for app teams utilising shared pipelines",
